@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon May 29 22:36:25 2023
+# Process ID: 1784
+# Current directory: D:/An I sem II/PSN/paint_nou
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6492 D:\An I sem II\PSN\paint_nou\paint_nou.xpr
+# Log file: D:/An I sem II/PSN/paint_nou/vivado.log
+# Journal file: D:/An I sem II/PSN/paint_nou\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/An I sem II/PSN/paint_nou/paint_nou.xpr}
+update_compile_order -fileset sources_1

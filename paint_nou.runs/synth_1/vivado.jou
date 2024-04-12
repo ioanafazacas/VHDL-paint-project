@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Jun  1 19:24:48 2023
+# Process ID: 6732
+# Current directory: D:/An I sem II/PSN/paint_nou/paint_nou.runs/synth_1
+# Command line: vivado.exe -log Nexys4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Nexys4.tcl
+# Log file: D:/An I sem II/PSN/paint_nou/paint_nou.runs/synth_1/Nexys4.vds
+# Journal file: D:/An I sem II/PSN/paint_nou/paint_nou.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Nexys4.tcl -notrace

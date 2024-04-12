@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed May 31 19:59:41 2023
+# Process ID: 12808
+# Current directory: D:/An I sem II/PSN/paint_nou
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11452 D:\An I sem II\PSN\paint_nou\paint_nou.xpr
+# Log file: D:/An I sem II/PSN/paint_nou/vivado.log
+# Journal file: D:/An I sem II/PSN/paint_nou\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/An I sem II/PSN/paint_nou/paint_nou.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/An I sem II/PSN/paint_nou/paint_nou.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 1452.645 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 31 20:03:09 2023] Launched synth_1...
+Run output will be captured here: D:/An I sem II/PSN/paint_nou/paint_nou.runs/synth_1/runme.log
+[Wed May 31 20:03:09 2023] Launched impl_1...
+Run output will be captured here: D:/An I sem II/PSN/paint_nou/paint_nou.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1452.645 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 112 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Nexys4' is not ideal for floorplanning, since the cellview 'VGA' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.282 . Memory (MB): peak = 1950.777 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.283 . Memory (MB): peak = 1950.777 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1950.777 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:30 ; elapsed = 00:00:19 . Memory (MB): peak = 2080.219 ; gain = 627.574
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 31 20:11:26 2023...
